@@ -1,0 +1,43 @@
+/* screen - XXl min-1400px max-infi.... */
+@media (min-width:1400px) {
+    .container{
+        width: 1320px;
+    }
+} 
+
+/* screen - Xl min- 1200px max-1399px */
+@media (max-width:1399px) {
+    .container{
+        width:1140px;
+    }
+}
+
+/* screen - LG min-992px max-1199px */
+@media (max-width:1199px) {
+    .container{
+        width:940px;
+    }
+}
+
+/* screen- MD min-768px max-991px */
+@media (max-width:991px) {
+    .container{
+        width:720px;
+    }
+}
+
+/* screen - SM min-576px max-767px */
+@media(max-width:767px) {
+    .container{
+        width:540px;
+    }
+    .nav-sm-none{display:none;}
+    .none-sm-open{display:flex;}
+}
+
+/* screen - XS min-0px max-575px */
+@media (min-width:575px) {
+    .container{
+        width:100%;
+    }
+}
