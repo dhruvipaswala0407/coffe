@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,26 +17,39 @@
   <link href="./image/favicon-16x16.png" rel="icon" />
   <link rel="stylesheet" href="./css/media.css" />
 </head>
+
 <body>
   <header>
     <div class="container">
       <div class="row">
         <div class="header-wrapper d-flex justify-between">
           <div class="logo">
-              <img src="./image/logo.png" alt="logo"/>
+            <img src="./image/logo.png" alt="logo" />
           </div>
-          <div class="none none-sm-open d-flex align-center justify-around w-10">
+          <div class="none none-mb-open d-flex align-center justify-around w-10">
             <i class="ri-menu-line"></i>
             <i class="ri-search-line pl-10"></i>
           </div>
-          <div class="navbar d-flex align-center justify-around nav-sm-none">
+          <div class="navbar d-flex align-center justify-around nav-mb-none">
             <ul class="d-flex align-center justify-around">
-              <a href=""><li>Home</li></a>
-              <a href=""><li>Menu</li></a>
-              <a href=""><li>Blog</li></a>
-              <a href=""><li>Media</li></a>
-              <a href=""><li>Contact</li></a>
-              <a href=""><li><i class="ri-search-line"></i></li></a>
+              <a href="">
+                <li>Home</li>
+              </a>
+              <a href="">
+                <li>Menu</li>
+              </a>
+              <a href="">
+                <li>Blog</li>
+              </a>
+              <a href="">
+                <li>Media</li>
+              </a>
+              <a href="">
+                <li>Contact</li>
+              </a>
+              <a href="">
+                <li><i class="ri-search-line"></i></li>
+              </a>
             </ul>
           </div>
         </div>
@@ -45,13 +59,12 @@
   <section class="hero-section">
     <div class="container">
       <div class="row">
-        <div class="overlay"></div>
         <div class="hero-container d-flex align-center justify-center pb-50">
           <div class="hero-content">
-            <h1>Savor the Perfect Brew!</h1>
+            <h1 class="h1">Savor the Perfect Brew!</h1>
             <p class="pb-20">Freshly brewed coffee made from the finest beans to start your day right.</p>
-            <div class="button-group d-flex">
-              <a href="#" class="btn btn-primary">Get your coffee</a>
+            <div class="button-group d-flex w-100 d-sm-block justify-center ">
+              <a href="#" class="btn btn-primary grow pb-20">Get your coffee</a>
               <a href="#" class="btn btn-secondary pl-10">View Menu</a>
             </div>
           </div>
@@ -59,10 +72,48 @@
       </div>
     </div>
   </section>
-  <section>
+  <section class="features-section">
     <div class="container">
       <div class="row">
-        
+       <div class="fecture-heading"><h1 class="section-title">Features</h1></div>
+        <div class="d-flex justify-between align-strech fecture-container">
+          <div class="feature-card d-flex align-center">
+            <div class="icon-wrapper">
+              <i class="fa-solid fa-mug-hot"></i>
+            </div>
+            <h3 class="feature-title">Latte</h3>
+            <p class="feature-description">
+              A creamy coffee made with rich espresso and smooth steamed milk, perfect for a relaxing sip anytime.
+            </p>
+          </div>
+          <div class="feature-card d-flex align-center">
+            <div class="icon-wrapper">
+              <i class="fa-solid fa-mug-hot"></i>
+            </div>
+            <h3 class="feature-title">Espresso</h3>
+            <p class="feature-description">
+              A strong and concentrated coffee with a rich aroma, perfect for those who love bold flavors.
+            </p>
+          </div>
+          <div class="feature-card d-flex align-center">
+            <div class="icon-wrapper">
+              <i class="fa-solid fa-mug-hot"></i>
+            </div>
+            <h3 class="feature-title">Cold brew</h3>
+            <p class="feature-description">
+              A refreshing cold coffee made by slowly brewing coffee grounds in cold water for a smooth and rich taste.
+            </p>
+          </div>
+          <div class="feature-card d-flex align-center">
+            <div class="icon-wrapper">
+              <i class="fa-solid fa-mug-hot"></i>
+            </div>
+            <h3 class="feature-title">Cappuccino</h3>
+            <p class="feature-description">
+              A perfect blend of espresso, steamed milk, and creamy foam for a rich and smooth taste.
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   </section>
